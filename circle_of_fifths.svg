@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="400" fill="white"/>
+  
+  <!-- Rotate entire diagram to match reference -->
+  <g transform="translate(200,200) rotate(90)">
+    <!-- Major key segments (outer circle) -->
+    <g>
+      <!-- 12 segments for major keys -->
+      <path d="M 0 -150 A 150 150 0 0 1 75 -129.9 L 0 0 Z" fill="#E95D35"/>
+      <path d="M 75 -129.9 A 150 150 0 0 1 129.9 -75 L 0 0 Z" fill="#E95D35"/>
+      <path d="M 129.9 -75 A 150 150 0 0 1 150 0 L 0 0 Z" fill="#E95D35"/>
+      <path d="M 150 0 A 150 150 0 0 1 129.9 75 L 0 0 Z" fill="#E95D35"/>
+      <path d="M 129.9 75 A 150 150 0 0 1 75 129.9 L 0 0 Z" fill="#E95D35"/>
+      <path d="M 75 129.9 A 150 150 0 0 1 0 150 L 0 0 Z" fill="#E95D35"/>
+      <path d="M 0 150 A 150 150 0 0 1 -75 129.9 L 0 0 Z" fill="#E95D35"/>
+      <path d="M -75 129.9 A 150 150 0 0 1 -129.9 75 L 0 0 Z" fill="#E95D35"/>
+      <path d="M -129.9 75 A 150 150 0 0 1 -150 0 L 0 0 Z" fill="#E95D35"/>
+      <path d="M -150 0 A 150 150 0 0 1 -129.9 -75 L 0 0 Z" fill="#E95D35"/>
+      <path d="M -129.9 -75 A 150 150 0 0 1 -75 -129.9 L 0 0 Z" fill="#E95D35"/>
+      <path d="M -75 -129.9 A 150 150 0 0 1 0 -150 L 0 0 Z" fill="#E95D35"/>
+    </g>
+
+    <!-- Minor key segments (inner circle) -->
+    <g>
+      <!-- 12 segments for minor keys -->
+      <path d="M 0 -100 A 100 100 0 0 1 50 -86.6 L 0 0 Z" fill="white"/>
+      <path d="M 50 -86.6 A 100 100 0 0 1 86.6 -50 L 0 0 Z" fill="white"/>
+      <path d="M 86.6 -50 A 100 100 0 0 1 100 0 L 0 0 Z" fill="white"/>
+      <path d="M 100 0 A 100 100 0 0 1 86.6 50 L 0 0 Z" fill="white"/>
+      <path d="M 86.6 50 A 100 100 0 0 1 50 86.6 L 0 0 Z" fill="white"/>
+      <path d="M 50 86.6 A 100 100 0 0 1 0 100 L 0 0 Z" fill="white"/>
+      <path d="M 0 100 A 100 100 0 0 1 -50 86.6 L 0 0 Z" fill="white"/>
+      <path d="M -50 86.6 A 100 100 0 0 1 -86.6 50 L 0 0 Z" fill="white"/>
+      <path d="M -86.6 50 A 100 100 0 0 1 -100 0 L 0 0 Z" fill="white"/>
+      <path d="M -100 0 A 100 100 0 0 1 -86.6 -50 L 0 0 Z" fill="white"/>
+      <path d="M -86.6 -50 A 100 100 0 0 1 -50 -86.6 L 0 0 Z" fill="white"/>
+      <path d="M -50 -86.6 A 100 100 0 0 1 0 -100 L 0 0 Z" fill="white"/>
+    </g>
+
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="40" fill="#D14B24"/>
+
+    <!-- Major key labels -->
+    <g font-size="16" font-weight="bold" fill="black">
+      <text x="0" y="-125" text-anchor="middle" transform="rotate(-90 0 -125)">F</text>
+      <text x="65" y="-108" text-anchor="middle" transform="rotate(-90 65 -108)">C</text>
+      <text x="108" y="-65" text-anchor="middle" transform="rotate(-90 108 -65)">G</text>
+      <text x="125" y="0" text-anchor="middle" transform="rotate(-90 125 0)">D</text>
+      <text x="108" y="65" text-anchor="middle" transform="rotate(-90 108 65)">A</text>
+      <text x="65" y="108" text-anchor="middle" transform="rotate(-90 65 108)">E</text>
+      <text x="0" y="125" text-anchor="middle" transform="rotate(-90 0 125)">B</text>
+      <text x="-65" y="108" text-anchor="middle" transform="rotate(-90 -65 108)">F#</text>
+      <text x="-108" y="65" text-anchor="middle" transform="rotate(-90 -108 65)">C#</text>
+      <text x="-125" y="0" text-anchor="middle" transform="rotate(-90 -125 0)">Ab</text>
+      <text x="-108" y="-65" text-anchor="middle" transform="rotate(-90 -108 -65)">Eb</text>
+      <text x="-65" y="-108" text-anchor="middle" transform="rotate(-90 -65 -108)">Bb</text>
+    </g>
+
+    <!-- Minor key labels -->
+    <g font-size="14" fill="black">
+      <text x="0" y="-85" text-anchor="middle" transform="rotate(-90 0 -85)">Dm</text>
+      <text x="43" y="-73" text-anchor="middle" transform="rotate(-90 43 -73)">Am</text>
+      <text x="73" y="-43" text-anchor="middle" transform="rotate(-90 73 -43)">Em</text>
+      <text x="85" y="0" text-anchor="middle" transform="rotate(-90 85 0)">Bm</text>
+      <text x="73" y="43" text-anchor="middle" transform="rotate(-90 73 43)">F#m</text>
+      <text x="43" y="73" text-anchor="middle" transform="rotate(-90 43 73)">C#m</text>
+      <text x="0" y="85" text-anchor="middle" transform="rotate(-90 0 85)">G#m</text>
+      <text x="-43" y="73" text-anchor="middle" transform="rotate(-90 -43 73)">D#m</text>
+      <text x="-73" y="43" text-anchor="middle" transform="rotate(-90 -73 43)">A#m</text>
+      <text x="-85" y="0" text-anchor="middle" transform="rotate(-90 -85 0)">Fm</text>
+      <text x="-73" y="-43" text-anchor="middle" transform="rotate(-90 -73 -43)">Cm</text>
+      <text x="-43" y="-73" text-anchor="middle" transform="rotate(-90 -43 -73)">Gm</text>
+    </g>
+
+    <!-- Dividing lines -->
+    <g stroke="black" stroke-width="1">
+      <circle cx="0" cy="0" r="150" fill="none"/>
+      <circle cx="0" cy="0" r="100" fill="none"/>
+      <!-- Radial lines -->
+      <line x1="0" y1="-150" x2="0" y2="-100"/>
+      <line x1="75" y1="-129.9" x2="50" y2="-86.6"/>
+      <line x1="129.9" y1="-75" x2="86.6" y2="-50"/>
+      <line x1="150" y1="0" x2="100" y2="0"/>
+      <line x1="129.9" y1="75" x2="86.6" y2="50"/>
+      <line x1="75" y1="129.9" x2="50" y2="86.6"/>
+      <line x1="0" y1="150" x2="0" y2="100"/>
+      <line x1="-75" y1="129.9" x2="-50" y2="86.6"/>
+      <line x1="-129.9" y1="75" x2="-86.6" y2="50"/>
+      <line x1="-150" y1="0" x2="-100" y2="0"/>
+      <line x1="-129.9" y1="-75" x2="-86.6" y2="-50"/>
+      <line x1="-75" y1="-129.9" x2="-50" y2="-86.6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240">
+  <!-- Full-width background -->
+  <rect x="0" y="0" width="880" height="240" fill="#f0f0f0"/>
+  
+  <!-- White keys - Each key is 16px wide with 1px spacing -->
+  <g stroke="black" stroke-width="1">
+    <!-- Octave 1 -->
+    <rect x="0" y="0" width="16" height="190" fill="white"/><text x="2" y="220" font-size="10">C1</text>
+    <rect x="17" y="0" width="16" height="190" fill="white"/><text x="19" y="220" font-size="10">D1</text>
+    <rect x="34" y="0" width="16" height="190" fill="white"/><text x="36" y="220" font-size="10">E1</text>
+    <rect x="51" y="0" width="16" height="190" fill="white"/><text x="53" y="220" font-size="10">F1</text>
+    <rect x="68" y="0" width="16" height="190" fill="white"/><text x="70" y="220" font-size="10">G1</text>
+    <rect x="85" y="0" width="16" height="190" fill="white"/><text x="87" y="220" font-size="10">A1</text>
+    <rect x="102" y="0" width="16" height="190" fill="white"/><text x="104" y="220" font-size="10">B1</text>
+
+    <!-- Octave 2 -->
+    <rect x="119" y="0" width="16" height="190" fill="white"/><text x="121" y="220" font-size="10">C2</text>
+    <rect x="136" y="0" width="16" height="190" fill="white"/><text x="138" y="220" font-size="10">D2</text>
+    <rect x="153" y="0" width="16" height="190" fill="white"/><text x="155" y="220" font-size="10">E2</text>
+    <rect x="170" y="0" width="16" height="190" fill="white"/><text x="172" y="220" font-size="10">F2</text>
+    <rect x="187" y="0" width="16" height="190" fill="white"/><text x="189" y="220" font-size="10">G2</text>
+    <rect x="204" y="0" width="16" height="190" fill="white"/><text x="206" y="220" font-size="10">A2</text>
+    <rect x="221" y="0" width="16" height="190" fill="white"/><text x="223" y="220" font-size="10">B2</text>
+
+    <!-- Octave 3 -->
+    <rect x="238" y="0" width="16" height="190" fill="white"/><text x="240" y="220" font-size="10">C3</text>
+    <rect x="255" y="0" width="16" height="190" fill="white"/><text x="257" y="220" font-size="10">D3</text>
+    <rect x="272" y="0" width="16" height="190" fill="white"/><text x="274" y="220" font-size="10">E3</text>
+    <rect x="289" y="0" width="16" height="190" fill="white"/><text x="291" y="220" font-size="10">F3</text>
+    <rect x="306" y="0" width="16" height="190" fill="white"/><text x="308" y="220" font-size="10">G3</text>
+    <rect x="323" y="0" width="16" height="190" fill="white"/><text x="325" y="220" font-size="10">A3</text>
+    <rect x="340" y="0" width="16" height="190" fill="white"/><text x="342" y="220" font-size="10">B3</text>
+
+    <!-- Octave 4 -->
+    <rect x="357" y="0" width="16" height="190" fill="white"/><text x="359" y="220" font-size="10">C4</text>
+    <rect x="374" y="0" width="16" height="190" fill="white"/><text x="376" y="220" font-size="10">D4</text>
+    <rect x="391" y="0" width="16" height="190" fill="white"/><text x="393" y="220" font-size="10">E4</text>
+    <rect x="408" y="0" width="16" height="190" fill="white"/><text x="410" y="220" font-size="10">F4</text>
+    <rect x="425" y="0" width="16" height="190" fill="white"/><text x="427" y="220" font-size="10">G4</text>
+    <rect x="442" y="0" width="16" height="190" fill="white"/><text x="444" y="220" font-size="10">A4</text>
+    <rect x="459" y="0" width="16" height="190" fill="white"/><text x="461" y="220" font-size="10">B4</text>
+
+    <!-- Octave 5 -->
+    <rect x="476" y="0" width="16" height="190" fill="white"/><text x="478" y="220" font-size="10">C5</text>
+    <rect x="493" y="0" width="16" height="190" fill="white"/><text x="495" y="220" font-size="10">D5</text>
+    <rect x="510" y="0" width="16" height="190" fill="white"/><text x="512" y="220" font-size="10">E5</text>
+    <rect x="527" y="0" width="16" height="190" fill="white"/><text x="529" y="220" font-size="10">F5</text>
+    <rect x="544" y="0" width="16" height="190" fill="white"/><text x="546" y="220" font-size="10">G5</text>
+    <rect x="561" y="0" width="16" height="190" fill="white"/><text x="563" y="220" font-size="10">A5</text>
+    <rect x="578" y="0" width="16" height="190" fill="white"/><text x="580" y="220" font-size="10">B5</text>
+
+    <!-- Octave 6 -->
+    <rect x="595" y="0" width="16" height="190" fill="white"/><text x="597" y="220" font-size="10">C6</text>
+    <rect x="612" y="0" width="16" height="190" fill="white"/><text x="614" y="220" font-size="10">D6</text>
+    <rect x="629" y="0" width="16" height="190" fill="white"/><text x="631" y="220" font-size="10">E6</text>
+    <rect x="646" y="0" width="16" height="190" fill="white"/><text x="648" y="220" font-size="10">F6</text>
+    <rect x="663" y="0" width="16" height="190" fill="white"/><text x="665" y="220" font-size="10">G6</text>
+    <rect x="680" y="0" width="16" height="190" fill="white"/><text x="682" y="220" font-size="10">A6</text>
+    <rect x="697" y="0" width="16" height="190" fill="white"/><text x="699" y="220" font-size="10">B6</text>
+
+    <!-- Octave 7 -->
+    <rect x="714" y="0" width="16" height="190" fill="white"/><text x="716" y="220" font-size="10">C7</text>
+    <rect x="731" y="0" width="16" height="190" fill="white"/><text x="733" y="220" font-size="10">D7</text>
+    <rect x="748" y="0" width="16" height="190" fill="white"/><text x="750" y="220" font-size="10">E7</text>
+    <rect x="765" y="0" width="16" height="190" fill="white"/><text x="767" y="220" font-size="10">F7</text>
+    <rect x="782" y="0" width="16" height="190" fill="white"/><text x="784" y="220" font-size="10">G7</text>
+    <rect x="799" y="0" width="16" height="190" fill="white"/><text x="801" y="220" font-size="10">A7</text>
+    <rect x="816" y="0" width="16" height="190" fill="white"/><text x="818" y="220" font-size="10">B7</text>
+
+    <!-- C8 -->
+    <rect x="833" y="0" width="16" height="190" fill="white"/><text x="835" y="220" font-size="10">C8</text>
+  </g>
+
+  <!-- Black keys -->
+  <g fill="black">
+    <!-- Octave 1 -->
+    <rect x="11" y="0" width="12" height="120"/><text x="12" y="60" font-size="8" fill="white">C♯1</text>
+    <rect x="28" y="0" width="12" height="120"/><text x="29" y="60" font-size="8" fill="white">D♯1</text>
+    <rect x="62" y="0" width="12" height="120"/><text x="63" y="60" font-size="8" fill="white">F♯1</text>
+    <rect x="79" y="0" width="12" height="120"/><text x="80" y="60" font-size="8" fill="white">G♯1</text>
+    <rect x="96" y="0" width="12" height="120"/><text x="97" y="60" font-size="8" fill="white">A♯1</text>
+
+    <!-- Octave 2 -->
+    <rect x="130" y="0" width="12" height="120"/><text x="131" y="60" font-size="8" fill="white">C♯2</text>
+    <rect x="147" y="0" width="12" height="120"/><text x="148" y="60" font-size="8" fill="white">D♯2</text>
+    <rect x="181" y="0" width="12" height="120"/><text x="182" y="60" font-size="8" fill="white">F♯2</text>
+    <rect x="198" y="0" width="12" height="120"/><text x="199" y="60" font-size="8" fill="white">G♯2</text>
+    <rect x="215" y="0" width="12" height="120"/><text x="216" y="60" font-size="8" fill="white">A♯2</text>
+
+    <!-- Octave 3 -->
+    <rect x="249" y="0" width="12" height="120"/><text x="250" y="60" font-size="8" fill="white">C♯3</text>
+    <rect x="266" y="0" width="12" height="120"/><text x="267" y="60" font-size="8" fill="white">D♯3</text>
+    <rect x="300" y="0" width="12" height="120"/><text x="301" y="60" font-size="8" fill="white">F♯3</text>
+    <rect x="317" y="0" width="12" height="120"/><text x="318" y="60" font-size="8" fill="white">G♯3</text>
+    <rect x="334" y="0" width="12" height="120"/><text x="335" y="60" font-size="8" fill="white">A♯3</text>
+
+    <!-- Octave 4 -->
+    <rect x="368" y="0" width="12" height="120"/><text x="369" y="60" font-size="8" fill="white">C♯4</text>
+    <rect x="385" y="0" width="12" height="120"/><text x="386" y="60" font-size="8" fill="white">D♯4</text>
+    <rect x="419" y="0" width="12" height="120"/><text x="420" y="60" font-size="8" fill="white">F♯4</text>
+    <rect x="436" y="0" width="12" height="120"/><text x="437" y="60" font-size="8" fill="white">G♯4</text>
+    <rect x="453" y="0" width="12" height="120"/><text x="454" y="60" font-size="8" fill="white">A♯4</text>
+
+    <!-- Octave 5 -->
+    <rect x="487" y="0" width="12" height="120"/><text x="488" y="60" font-size="8" fill="white">C♯5</text>
+    <rect x="504" y="0" width="12" height="120"/><text x="505" y="60" font-size="8" fill="white">D♯5</text>
+    <rect x="538" y="0" width="12" height="120"/><text x="539" y="60" font-size="8" fill="white">F♯5</text>
+    <rect x="555" y="0" width="12" height="120"/><text x="556" y="60" font-size="8" fill="white">G♯5</text>
+    <rect x="572" y="0" width="12" height="120"/><text x="573" y="60" font-size="8" fill="white">A♯5</text>
+
+    <!-- Octave 6 -->
+    <rect x="606" y="0" width="12" height="120"/><text x="607" y="60" font-size="8" fill="white">C♯6</text>
+    <rect x="623" y="0" width="12" height="120"/><text x="624" y="60" font-size="8" fill="white">D♯6</text>
+    <rect x="657" y="0" width="12" height="120"/><text x="658" y="60" font-size="8" fill="white">F♯6</text>
+    <rect x="674" y="0" width="12" height="120"/><text x="675" y="60" font-size="8" fill="white">G♯6</text>
+    <rect x="691" y="0" width="12" height="120"/><text x="692" y="60" font-size="8" fill="white">A♯6</text>
+
+    <!-- Octave 7 -->
+    <rect x="725" y="0" width="12" height="120"/><text x="726" y="60" font-size="8" fill="white">C♯7</text>
+    <rect x="742" y="0" width="12" height="120"/><text x="743" y="60" font-size="8" fill="white">D♯7</text>
+    <rect x="776" y="0" width="12" height="120"/><text x="777" y="60" font-size="8" fill="white">F♯7</text>
+    <rect x="793" y="0" width="12" height="120"/><text x="794" y="60" font-size="8" fill="white">G♯7</text>
+    <rect x="810" y="0" width="12" height="120"/><text x="811" y="60" font-size="8" fill="white">A♯7</text>
+  </g>
+</svg>
