@@ -1,6 +1,13 @@
 # Piano SVG Collection
 
+
+
 A collection of SVG files illustrating piano chords, chord progressions, and music theory concepts. This repository serves as a visual reference for musicians learning piano theory and chord structures.
+
+# motivation
+a) I'm learning piano and I want to visualize the chords and chord progressions
+
+b) it was fun to make :)
 
 ## Contents
 
