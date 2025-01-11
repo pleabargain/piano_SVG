@@ -18,6 +18,12 @@ b) it was fun to make :)
 - Sharp chords (A♯, C♯, D♯, F♯, G♯)
 - Full piano keyboard layout (`piano.svg`)
 
+### Chord Visualization Rules
+- All chords start with their root note as the leftmost key
+- Keys are highlighted in pink to show which ones to play
+- Clear note labels for all keys
+- Comments in SVG describe the role of each note in the chord (root, third, fifth, etc.)
+
 ### Major Scales
 - Natural scales (A through G)
 - Sharp scales (F♯, G♯, A♯/B♭)
@@ -38,7 +44,7 @@ Each scale visualization shows:
 - `i_III_IV_V_VI_progression_C_minor.svg` - A minor key progression showing the relationship between minor and major chords in the natural minor scale
 
 ### Style Guide
-- `style_guide.json` - Comprehensive documentation of SVG styling patterns used across the collection, including colors, dimensions, spacing, and typography
+- `style_guide.json` - Comprehensive documentation of SVG styling patterns used across the collection, including colors, dimensions, spacing, typography, and key ordering rules
 
 ## Usage
 
@@ -64,6 +70,7 @@ This collection is designed to help:
 - Anyone learning music theory understand key concepts through visual aids
 
 ## Recent Updates
+- Added chord visualization rule: chords must start with root note
 - Added minor key progression visualization (i-III-IV-V-VI in C minor)
 - Created style guide documentation (style_guide.json)
 - Added major scales collection including natural, sharp, and flat scales

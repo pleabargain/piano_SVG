@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="300" fill="#f0f0f0"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" font-size="20" text-anchor="middle" fill="black">Em → G → B7 → D Progression</text>
+
+  <!-- E minor (i) -->
+  <!-- Notes: E (root), G (minor third), B (perfect fifth) -->
+  <g transform="translate(0,40)">
+    <g stroke="black" stroke-width="1">
+      <!-- E - Root -->
+      <rect x="34" y="0" width="16" height="190" fill="#ff9999"/><text x="36" y="205" font-size="10">E</text>
+      <!-- F -->
+      <rect x="51" y="0" width="16" height="190" fill="white"/><text x="53" y="205" font-size="10">F</text>
+      <!-- G - Minor Third -->
+      <rect x="68" y="0" width="16" height="190" fill="#ff9999"/><text x="70" y="205" font-size="10">G</text>
+      <!-- A -->
+      <rect x="85" y="0" width="16" height="190" fill="white"/><text x="87" y="205" font-size="10">A</text>
+      <!-- B - Fifth -->
+      <rect x="102" y="0" width="16" height="190" fill="#ff9999"/><text x="104" y="205" font-size="10">B</text>
+      <!-- C -->
+      <rect x="0" y="0" width="16" height="190" fill="white"/><text x="2" y="205" font-size="10">C</text>
+      <!-- D -->
+      <rect x="17" y="0" width="16" height="190" fill="white"/><text x="19" y="205" font-size="10">D</text>
+    </g>
+    <!-- Black keys -->
+    <g fill="black">
+      <rect x="11" y="0" width="12" height="120"/><text x="12" y="60" font-size="8" fill="white">C♯</text>
+      <rect x="28" y="0" width="12" height="120"/><text x="29" y="60" font-size="8" fill="white">D♯</text>
+      <rect x="62" y="0" width="12" height="120"/><text x="63" y="60" font-size="8" fill="white">F♯</text>
+      <rect x="79" y="0" width="12" height="120"/><text x="80" y="60" font-size="8" fill="white">G♯</text>
+      <rect x="96" y="0" width="12" height="120"/><text x="97" y="60" font-size="8" fill="white">A♯</text>
+    </g>
+  </g>
+  <!-- Label for E minor -->
+  <text x="60" y="260" font-size="16" text-anchor="middle" fill="black">E minor</text>
+
+  <!-- G major -->
+  <!-- Notes: G (root), B (major third), D (perfect fifth) -->
+  <g transform="translate(160,40)">
+    <g stroke="black" stroke-width="1">
+      <!-- G - Root -->
+      <rect x="68" y="0" width="16" height="190" fill="#ff9999"/><text x="70" y="205" font-size="10">G</text>
+      <!-- A -->
+      <rect x="85" y="0" width="16" height="190" fill="white"/><text x="87" y="205" font-size="10">A</text>
+      <!-- B - Third -->
+      <rect x="102" y="0" width="16" height="190" fill="#ff9999"/><text x="104" y="205" font-size="10">B</text>
+      <!-- C -->
+      <rect x="0" y="0" width="16" height="190" fill="white"/><text x="2" y="205" font-size="10">C</text>
+      <!-- D - Fifth -->
+      <rect x="17" y="0" width="16" height="190" fill="#ff9999"/><text x="19" y="205" font-size="10">D</text>
+      <!-- E -->
+      <rect x="34" y="0" width="16" height="190" fill="white"/><text x="36" y="205" font-size="10">E</text>
+      <!-- F -->
+      <rect x="51" y="0" width="16" height="190" fill="white"/><text x="53" y="205" font-size="10">F</text>
+    </g>
+    <!-- Black keys -->
+    <g fill="black">
+      <rect x="11" y="0" width="12" height="120"/><text x="12" y="60" font-size="8" fill="white">C♯</text>
+      <rect x="28" y="0" width="12" height="120"/><text x="29" y="60" font-size="8" fill="white">D♯</text>
+      <rect x="62" y="0" width="12" height="120"/><text x="63" y="60" font-size="8" fill="white">F♯</text>
+      <rect x="79" y="0" width="12" height="120"/><text x="80" y="60" font-size="8" fill="white">G♯</text>
+      <rect x="96" y="0" width="12" height="120"/><text x="97" y="60" font-size="8" fill="white">A♯</text>
+    </g>
+  </g>
+  <!-- Label for G major -->
+  <text x="220" y="260" font-size="16" text-anchor="middle" fill="black">G major</text>
+
+  <!-- B7 -->
+  <!-- Notes: B (root), D# (major third), F# (perfect fifth), A (minor seventh) -->
+  <g transform="translate(320,40)">
+    <g stroke="black" stroke-width="1">
+      <!-- B - Root -->
+      <rect x="0" y="0" width="16" height="190" fill="#ff9999"/><text x="2" y="205" font-size="10">B</text>
+      <!-- C -->
+      <rect x="17" y="0" width="16" height="190" fill="white"/><text x="19" y="205" font-size="10">C</text>
+      <!-- D -->
+      <rect x="34" y="0" width="16" height="190" fill="white"/><text x="36" y="205" font-size="10">D</text>
+      <!-- E -->
+      <rect x="51" y="0" width="16" height="190" fill="white"/><text x="53" y="205" font-size="10">E</text>
+      <!-- F -->
+      <rect x="68" y="0" width="16" height="190" fill="white"/><text x="70" y="205" font-size="10">F</text>
+      <!-- G -->
+      <rect x="85" y="0" width="16" height="190" fill="white"/><text x="87" y="205" font-size="10">G</text>
+      <!-- A - Seventh -->
+      <rect x="102" y="0" width="16" height="190" fill="#ff9999"/><text x="104" y="205" font-size="10">A</text>
+    </g>
+    <!-- Black keys -->
+    <g fill="black">
+      <rect x="11" y="0" width="12" height="120"/><text x="12" y="60" font-size="8" fill="white">C♯</text>
+      <rect x="28" y="0" width="12" height="120" fill="#ff9999"/><text x="29" y="60" font-size="8" fill="white">D♯</text>
+      <rect x="62" y="0" width="12" height="120" fill="#ff9999"/><text x="63" y="60" font-size="8" fill="white">F♯</text>
+      <rect x="79" y="0" width="12" height="120"/><text x="80" y="60" font-size="8" fill="white">G♯</text>
+      <rect x="96" y="0" width="12" height="120"/><text x="97" y="60" font-size="8" fill="white">A♯</text>
+    </g>
+  </g>
+  <!-- Label for B7 -->
+  <text x="380" y="260" font-size="16" text-anchor="middle" fill="black">B7</text>
+
+  <!-- D major -->
+  <!-- How to play D major chord:
+       1. D (root note) - first white key
+       2. F# (major third) - black key between F and G
+       3. A (perfect fifth) - white key
+       
+       Play these notes together to form the D major chord.
+       The pink highlighted keys are the ones to play.
+  -->
+  <g transform="translate(480,40)">
+    <g stroke="black" stroke-width="1">
+      <!-- D - Root -->
+      <rect x="0" y="0" width="16" height="190" fill="#ff9999"/><text x="2" y="205" font-size="10">D</text>
+      <!-- E -->
+      <rect x="17" y="0" width="16" height="190" fill="white"/><text x="19" y="205" font-size="10">E</text>
+      <!-- F -->
+      <rect x="34" y="0" width="16" height="190" fill="white"/><text x="36" y="205" font-size="10">F</text>
+      <!-- G -->
+      <rect x="51" y="0" width="16" height="190" fill="white"/><text x="53" y="205" font-size="10">G</text>
+      <!-- A - Fifth -->
+      <rect x="68" y="0" width="16" height="190" fill="#ff9999"/><text x="70" y="205" font-size="10">A</text>
+      <!-- B -->
+      <rect x="85" y="0" width="16" height="190" fill="white"/><text x="87" y="205" font-size="10">B</text>
+      <!-- C -->
+      <rect x="102" y="0" width="16" height="190" fill="white"/><text x="104" y="205" font-size="10">C</text>
+    </g>
+    <!-- Black keys -->
+    <g fill="black">
+      <rect x="11" y="0" width="12" height="120"/><text x="12" y="60" font-size="8" fill="white">C♯</text>
+      <rect x="28" y="0" width="12" height="120"/><text x="29" y="60" font-size="8" fill="white">D♯</text>
+      <rect x="45" y="0" width="12" height="120" fill="#ff9999"/><text x="46" y="60" font-size="8" fill="white">F♯</text>
+      <rect x="79" y="0" width="12" height="120"/><text x="80" y="60" font-size="8" fill="white">G♯</text>
+      <rect x="96" y="0" width="12" height="120"/><text x="97" y="60" font-size="8" fill="white">A♯</text>
+    </g>
+  </g>
+  <!-- Label for D major -->
+  <text x="540" y="260" font-size="16" text-anchor="middle" fill="black">D major</text>
+</svg>

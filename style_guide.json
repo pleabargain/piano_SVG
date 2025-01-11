@@ -59,6 +59,9 @@
         "text-anchor": "middle",
         "fill": "black"
       }
+    },
+    "key_ordering": {
+      "rule": "Chords must start with the root note as the leftmost key"
     }
   }
 }

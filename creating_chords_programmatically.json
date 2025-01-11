@@ -6,19 +6,22 @@
           "name": "root",
           "interval": 0,
           "highlight": "#ff9999",
-          "label_suffix": "- Root note"
+          "label_suffix": "- Root note",
+          "description": "Start with root note as leftmost key"
         },
         {
           "name": "third",
           "interval": 4,
           "highlight": "#ff9999",
-          "label_suffix": "- Third"
+          "label_suffix": "- Major Third",
+          "description": "4 semitones up from root"
         },
         {
           "name": "fifth",
           "interval": 7,
           "highlight": "#ff9999",
-          "label_suffix": "- Fifth"
+          "label_suffix": "- Fifth",
+          "description": "7 semitones up from root"
         }
       ]
     },
@@ -28,19 +31,54 @@
           "name": "root",
           "interval": 0,
           "highlight": "#ff9999",
-          "label_suffix": "- Root note"
+          "label_suffix": "- Root note",
+          "description": "Start with root note as leftmost key"
         },
         {
           "name": "minor_third",
           "interval": 3,
           "highlight": "#ff9999",
-          "label_suffix": "- Minor Third"
+          "label_suffix": "- Minor Third",
+          "description": "3 semitones up from root"
         },
         {
           "name": "fifth",
           "interval": 7,
           "highlight": "#ff9999",
-          "label_suffix": "- Fifth"
+          "label_suffix": "- Fifth",
+          "description": "7 semitones up from root"
+        }
+      ]
+    },
+    "dominant_seventh": {
+      "components": [
+        {
+          "name": "root",
+          "interval": 0,
+          "highlight": "#ff9999",
+          "label_suffix": "- Root note",
+          "description": "Start with root note as leftmost key"
+        },
+        {
+          "name": "major_third",
+          "interval": 4,
+          "highlight": "#ff9999",
+          "label_suffix": "- Major Third",
+          "description": "4 semitones up from root"
+        },
+        {
+          "name": "fifth",
+          "interval": 7,
+          "highlight": "#ff9999",
+          "label_suffix": "- Fifth",
+          "description": "7 semitones up from root"
+        },
+        {
+          "name": "minor_seventh",
+          "interval": 10,
+          "highlight": "#ff9999",
+          "label_suffix": "- Minor Seventh",
+          "description": "10 semitones up from root"
         }
       ]
     }
@@ -76,6 +114,10 @@
     }
   },
   "rules": {
+    "key_ordering": {
+      "rule": "Always start with the root note as the leftmost key",
+      "explanation": "This provides visual consistency and makes it easier to identify the chord's root"
+    },
     "highlighting": [
       "When highlighting a note that has a sharp/flat equivalent (e.g., F# vs Gb), use the appropriate enharmonic spelling based on the chord's root note",
       "Always highlight both the natural note and its sharp/flat equivalent when they represent the same chord tone",
@@ -87,18 +129,31 @@
       "Include both roman numeral and actual chord name in progression labels (e.g., 'i - Am')"
     ]
   },
-  "example": {
+  "examples": {
     "D_major": {
       "root": "D",
       "third": "F♯ (black key)",
       "fifth": "A",
-      "highlighted_keys": ["D white key", "F♯ black key", "A white key"]
+      "highlighted_keys": ["D white key", "F♯ black key", "A white key"],
+      "key_order": "Start with D, then arrange other white keys (E, F, G, A, B, C) and black keys in order",
+      "notes": "D major triad consists of D (root), F# (major third), and A (perfect fifth)"
     },
-    "E_major": {
+    "E_minor": {
       "root": "E",
-      "third": "G♯ (black key)",
+      "third": "G (natural)",
       "fifth": "B",
-      "highlighted_keys": ["E white key", "G♯ black key", "B white key"]
+      "highlighted_keys": ["E white key", "G white key", "B white key"],
+      "key_order": "Start with E, then arrange other white keys (F, G, A, B, C, D) and black keys in order",
+      "notes": "E minor triad consists of E (root), G (minor third), and B (perfect fifth)"
+    },
+    "B7": {
+      "root": "B",
+      "third": "D♯ (black key)",
+      "fifth": "F♯ (black key)",
+      "seventh": "A",
+      "highlighted_keys": ["B white key", "D♯ black key", "F♯ black key", "A white key"],
+      "key_order": "Start with B, then arrange other white keys (C, D, E, F, G, A) and black keys in order",
+      "notes": "B7 consists of B (root), D# (major third), F# (perfect fifth), and A (minor seventh)"
     }
   }
 }
