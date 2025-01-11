@@ -1,0 +1,104 @@
+{
+  "chord_structure": {
+    "major_chord": {
+      "components": [
+        {
+          "name": "root",
+          "interval": 0,
+          "highlight": "#ff9999",
+          "label_suffix": "- Root note"
+        },
+        {
+          "name": "third",
+          "interval": 4,
+          "highlight": "#ff9999",
+          "label_suffix": "- Third"
+        },
+        {
+          "name": "fifth",
+          "interval": 7,
+          "highlight": "#ff9999",
+          "label_suffix": "- Fifth"
+        }
+      ]
+    },
+    "minor_chord": {
+      "components": [
+        {
+          "name": "root",
+          "interval": 0,
+          "highlight": "#ff9999",
+          "label_suffix": "- Root note"
+        },
+        {
+          "name": "minor_third",
+          "interval": 3,
+          "highlight": "#ff9999",
+          "label_suffix": "- Minor Third"
+        },
+        {
+          "name": "fifth",
+          "interval": 7,
+          "highlight": "#ff9999",
+          "label_suffix": "- Fifth"
+        }
+      ]
+    }
+  },
+  "key_layout": {
+    "white_keys": {
+      "width": 16,
+      "height": 190,
+      "spacing": 17,
+      "notes": ["C", "D", "E", "F", "G", "A", "B"],
+      "label": {
+        "x_offset": 2,
+        "y_offset": 220,
+        "font_size": 10
+      }
+    },
+    "black_keys": {
+      "width": 12,
+      "height": 120,
+      "positions": [
+        {"note": "C♯", "x_offset": 11},
+        {"note": "D♯", "x_offset": 28},
+        {"note": "F♯", "x_offset": 62},
+        {"note": "G♯", "x_offset": 79},
+        {"note": "A♯", "x_offset": 96}
+      ],
+      "label": {
+        "x_offset": 1,
+        "y_offset": 60,
+        "font_size": 8,
+        "fill": "white"
+      }
+    }
+  },
+  "rules": {
+    "highlighting": [
+      "When highlighting a note that has a sharp/flat equivalent (e.g., F# vs Gb), use the appropriate enharmonic spelling based on the chord's root note",
+      "Always highlight both the natural note and its sharp/flat equivalent when they represent the same chord tone",
+      "For black keys that are chord tones, highlight them with the same color as white keys (#ff9999)"
+    ],
+    "chord_naming": [
+      "Use lowercase 'i' for minor chords in roman numerals",
+      "Use uppercase 'I' for major chords in roman numerals",
+      "Include both roman numeral and actual chord name in progression labels (e.g., 'i - Am')"
+    ]
+  },
+  "example": {
+    "D_major": {
+      "root": "D",
+      "third": "F♯ (black key)",
+      "fifth": "A",
+      "highlighted_keys": ["D white key", "F♯ black key", "A white key"]
+    },
+    "E_major": {
+      "root": "E",
+      "third": "G♯ (black key)",
+      "fifth": "B",
+      "highlighted_keys": ["E white key", "G♯ black key", "B white key"]
+    }
+  }
+}

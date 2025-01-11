@@ -34,6 +34,11 @@ Each scale visualization shows:
 ### Common Chord Progressions
 - `I_IV_V_progression.svg` - The I-IV-V progression, one of the most common chord progressions in popular music
 - `I_vi_IV_V_progression.svg` - The I-vi-IV-V progression, another popular progression used in many songs
+- `i_III_IV_V_VI_progression_A_minor.svg` - The House of the Rising Sun progression (Am - C - D - F - E)
+- `i_III_IV_V_VI_progression_C_minor.svg` - A minor key progression showing the relationship between minor and major chords in the natural minor scale
+
+### Style Guide
+- `style_guide.json` - Comprehensive documentation of SVG styling patterns used across the collection, including colors, dimensions, spacing, and typography
 
 ## Usage
 
@@ -59,6 +64,8 @@ This collection is designed to help:
 - Anyone learning music theory understand key concepts through visual aids
 
 ## Recent Updates
+- Added minor key progression visualization (i-III-IV-V-VI in C minor)
+- Created style guide documentation (style_guide.json)
 - Added major scales collection including natural, sharp, and flat scales
 - Added G# major scale visualization
 - Added A#/Bb major scale visualization with proper note labeling

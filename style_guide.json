@@ -1,0 +1,64 @@
+{
+  "svg": {
+    "viewBox": {
+      "width": "Varies based on number of chords (120px per chord)",
+      "height": "280px fixed"
+    },
+    "background": {
+      "color": "#f0f0f0",
+      "element": "rect",
+      "fill": "#f0f0f0"
+    },
+    "title": {
+      "position": {
+        "x": "centered (viewBox width / 2)",
+        "y": "30"
+      },
+      "style": {
+        "font-size": "20",
+        "text-anchor": "middle",
+        "fill": "black"
+      }
+    },
+    "piano_keys": {
+      "white_keys": {
+        "width": "16",
+        "height": "190",
+        "fill": "white",
+        "stroke": "black",
+        "stroke-width": "1",
+        "highlighted": {
+          "fill": "#ff9999"
+        },
+        "label": {
+          "font-size": "10",
+          "y_offset": "205"
+        }
+      },
+      "black_keys": {
+        "width": "12",
+        "height": "120",
+        "fill": "black",
+        "label": {
+          "font-size": "8",
+          "fill": "white",
+          "y_offset": "60"
+        }
+      }
+    },
+    "chord_spacing": {
+      "horizontal": "120px between chords",
+      "vertical": "40px from top"
+    },
+    "chord_labels": {
+      "position": {
+        "y": "260"
+      },
+      "style": {
+        "font-size": "16",
+        "text-anchor": "middle",
+        "fill": "black"
+      }
+    }
+  }
+}
