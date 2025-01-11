@@ -1,0 +1,90 @@
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- White keys -->
+    <!-- First Octave -->
+    <rect x="0" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="40" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="80" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="120" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="160" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="200" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="240" y="0" width="40" height="160" fill="white" stroke="black"/>
+    
+    <!-- Second Octave -->
+    <rect x="280" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="320" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="360" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="400" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="440" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="480" y="0" width="40" height="160" fill="white" stroke="black"/>
+    <rect x="520" y="0" width="40" height="160" fill="white" stroke="black"/>
+
+    <!-- F# Major Scale Highlights -->
+    <!-- White keys in the scale -->
+    <!-- B -->
+    <rect x="240" y="0" width="40" height="160" fill="#ffb3b3" fill-opacity="0.7" stroke="black"/>
+    <!-- E# (F) -->
+    <rect x="400" y="0" width="40" height="160" fill="#ffb3b3" fill-opacity="0.7" stroke="black"/>
+
+    <!-- Black keys - non-scale keys drawn first -->
+    <rect x="25" y="0" width="30" height="100" fill="black"/>
+    <rect x="265" y="0" width="30" height="100" fill="black"/>
+    <rect x="385" y="0" width="30" height="100" fill="black"/>
+
+    <!-- Black keys in scale with highlights -->
+    <!-- F# -->
+    <rect x="145" y="0" width="30" height="100" fill="#ffb3b3" stroke="black"/>
+    <!-- G# -->
+    <rect x="185" y="0" width="30" height="100" fill="#ffb3b3" stroke="black"/>
+    <!-- A# -->
+    <rect x="225" y="0" width="30" height="100" fill="#ffb3b3" stroke="black"/>
+    <!-- C# -->
+    <rect x="305" y="0" width="30" height="100" fill="#ffb3b3" stroke="black"/>
+    <!-- D# -->
+    <rect x="345" y="0" width="30" height="100" fill="#ffb3b3" stroke="black"/>
+    <!-- F# -->
+    <rect x="425" y="0" width="30" height="100" fill="#ffb3b3" stroke="black"/>
+
+    <!-- Key Labels -->
+    <!-- First Octave -->
+    <text x="10" y="180" font-size="12">C</text>
+    <text x="50" y="180" font-size="12">D</text>
+    <text x="90" y="180" font-size="12">E</text>
+    <text x="130" y="180" font-size="12">F</text>
+    <text x="170" y="180" font-size="12">G</text>
+    <text x="210" y="180" font-size="12">A</text>
+    <text x="250" y="180" font-size="12">B</text>
+    
+    <!-- Second Octave -->
+    <text x="290" y="180" font-size="12">C</text>
+    <text x="330" y="180" font-size="12">D</text>
+    <text x="370" y="180" font-size="12">E</text>
+    <text x="410" y="180" font-size="12">F</text>
+    <text x="450" y="180" font-size="12">G</text>
+    <text x="490" y="180" font-size="12">A</text>
+    <text x="530" y="180" font-size="12">B</text>
+
+    <!-- Black Key Labels -->
+    <text x="35" y="80" font-size="10" fill="white">C#</text>
+    <text x="75" y="80" font-size="10" fill="white">D#</text>
+    <text x="155" y="80" font-size="10" fill="white">F#</text>
+    <text x="195" y="80" font-size="10" fill="white">G#</text>
+    <text x="235" y="80" font-size="10" fill="white">A#</text>
+    <text x="315" y="80" font-size="10" fill="white">C#</text>
+    <text x="355" y="80" font-size="10" fill="white">D#</text>
+    <text x="435" y="80" font-size="10" fill="white">F#</text>
+    <text x="475" y="80" font-size="10" fill="white">G#</text>
+    <text x="515" y="80" font-size="10" fill="white">A#</text>
+
+    <!-- Add title -->
+    <text x="350" y="-10" font-size="24" text-anchor="middle" font-weight="bold">F# Major Scale</text>
+    
+    <!-- Scale Note Labels -->
+    <text x="155" y="90" font-size="14" fill="darkred" text-anchor="middle">F#</text>
+    <text x="195" y="90" font-size="14" fill="darkred" text-anchor="middle">G#</text>
+    <text x="235" y="90" font-size="14" fill="darkred" text-anchor="middle">A#</text>
+    <text x="260" y="140" font-size="14" fill="darkred" text-anchor="middle">B</text>
+    <text x="315" y="90" font-size="14" fill="darkred" text-anchor="middle">C#</text>
+    <text x="355" y="90" font-size="14" fill="darkred" text-anchor="middle">D#</text>
+    <text x="420" y="140" font-size="14" fill="darkred" text-anchor="middle">E#</text>
+    <text x="435" y="90" font-size="14" fill="darkred" text-anchor="middle">F#</text>
+</svg>

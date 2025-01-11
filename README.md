@@ -1,5 +1,9 @@
 # Piano SVG Collection
 
+# repo
+
+https://github.com/pleabargain/piano_SVG
+
 A collection of SVG files illustrating piano chords, chord progressions, scales, and music theory concepts. This repository serves as a visual reference for musicians learning piano theory and chord structures.
 
 # motivation
