@@ -1,8 +1,8 @@
 {
   "svg": {
     "viewBox": {
-      "width": "Varies based on number of chords (120px per chord)",
-      "height": "280px fixed"
+      "width": "Varies based on number of chords (120px per chord for multiple chords, 960px for single chord)",
+      "height": "1120px fixed"
     },
     "background": {
       "color": "#f0f0f0",
@@ -12,56 +12,70 @@
     "title": {
       "position": {
         "x": "centered (viewBox width / 2)",
-        "y": "30"
+        "y": "120"
       },
       "style": {
-        "font-size": "20",
+        "font-size": "80",
         "text-anchor": "middle",
         "fill": "black"
       }
     },
     "piano_keys": {
       "white_keys": {
-        "width": "16",
-        "height": "190",
+        "width": "64",
+        "height": "760",
         "fill": "white",
         "stroke": "black",
-        "stroke-width": "1",
+        "stroke-width": "4",
         "highlighted": {
           "fill": "#ff9999"
         },
         "label": {
-          "font-size": "10",
-          "y_offset": "205"
+          "font-size": "40",
+          "x_offset": "8",
+          "y_offset": "880"
         }
       },
       "black_keys": {
-        "width": "12",
-        "height": "120",
+        "width": "48",
+        "height": "480",
         "fill": "black",
         "label": {
-          "font-size": "8",
+          "font-size": "32",
           "fill": "white",
-          "y_offset": "60"
+          "x_offset": "4",
+          "y_offset": "240"
         }
       }
     },
     "chord_spacing": {
       "horizontal": "120px between chords",
-      "vertical": "40px from top"
+      "vertical": "160px from top"
     },
     "chord_labels": {
       "position": {
-        "y": "260"
+        "y": "1060"
       },
       "style": {
-        "font-size": "16",
+        "font-size": "56",
         "text-anchor": "middle",
         "fill": "black"
       }
     },
+    "comments": {
+      "requirement": "Each visualization must include descriptive comments for all keys, indicating their note names and roles in the chord (e.g., root note, third, fifth)"
+    },
     "key_ordering": {
       "rule": "Chords must start with the root note as the leftmost key"
+    },
+    "single_chord_layout": {
+      "canvas_width": "960px for full window visibility",
+      "canvas_height": "1120px to accommodate labels",
+      "positioning": {
+        "piano_offset": "320px from left edge to center the piano visualization",
+        "chord_width": "448px (7 white keys × 64px width)",
+        "total_spacing": "256px on each side ((960px - 448px) / 2)"
+      }
     }
   }
 }
