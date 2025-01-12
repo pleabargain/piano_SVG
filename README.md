@@ -45,6 +45,15 @@ Each scale visualization shows:
 
 ### Style Guide
 - `style_guide.json` - Comprehensive documentation of SVG styling patterns used across the collection, including colors, dimensions, spacing, typography, and key ordering rules
+- Single chord SVGs now use full-window dimensions (960x1120 pixels) for enhanced visibility
+- Consistent scaling of all elements (keys, fonts, spacing) to maintain proportions at larger size
+
+### SVG Dimensions
+- Single Chord Visualizations: 960x1120 pixels for optimal visibility
+  - Piano keys scaled proportionally (white keys: 64px width, black keys: 48px width)
+  - Larger font sizes for better readability (title: 80px, key labels: 40px)
+  - Centered layout with 256px spacing on each side
+- Multiple Chord Progressions: 120px per chord width (maintained for progression layouts)
 
 ## Usage
 
@@ -70,6 +79,7 @@ This collection is designed to help:
 - Anyone learning music theory understand key concepts through visual aids
 
 ## Recent Updates
+- Updated single chord SVG dimensions to 960x1120 pixels for enhanced visibility
 - Added chord visualization rule: chords must start with root note
 - Added minor key progression visualization (i-III-IV-V-VI in C minor)
 - Created style guide documentation (style_guide.json)
